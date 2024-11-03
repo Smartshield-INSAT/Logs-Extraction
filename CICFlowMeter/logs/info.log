@@ -1,0 +1,42 @@
+2024-10-23 20:07:26 - Forward flow closed due to FIN Flag
+2024-10-23 20:07:26 - Forward flow closed due to FIN Flag
+2024-10-23 20:07:26 - Forward flow closed due to FIN Flag
+2024-10-23 20:07:26 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:05 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-10-23 20:12:08 - Forward flow closed due to FIN Flag
+2024-11-03 11:39:53 - Selected interface: wlp49s0
+2024-11-03 11:39:53 - Output folder: /home/enigma/work/tsyp/3asba/CICFlowMeter/out/
+2024-11-03 11:39:53 - open wlp49s0 fail -> wlp49s0: You don't have permission to perform this capture on that device (socket: Operation not permitted)
+2024-11-03 11:39:53 - Network capture on wlp49s0 completed.
+2024-11-03 12:51:47 - Selected interface: wlp49s0
+2024-11-03 12:51:47 - Output folder: /home/enigma/work/tsyp/3asba/CICFlowMeter/out/
+2024-11-03 12:51:47 - open wlp49s0 fail -> wlp49s0: You don't have permission to perform this capture on that device (socket: Operation not permitted)
+2024-11-03 12:51:47 - Network capture on wlp49s0 completed.
+2024-11-03 12:53:15 - Selected interface: wlp49s0
+2024-11-03 12:53:15 - Output folder: /home/enigma/work/tsyp/3asba/CICFlowMeter/out/
+2024-11-03 12:53:15 - Pcap is listening...
+2024-11-03 12:54:16 - Forward flow closed due to FIN Flag
+2024-11-03 12:54:16 - Flow: 192.168.34.133-95.216.195.133-45598-80-6,192.168.34.133,45598,95.216.195.133,80,6,03/11/2024 12:53:33 PM,412089,3,4,88.0,204.0,88.0,0.0,29.333333333333332,50.80682368868706,204.0,0.0,51.0,102.0,708.5847960028052,16.986621821985057,68681.5,106207.45727254749,206728.0,2.0,207221.0,103610.5,145998.45843193002,206847.0,374.0,205361.0,68453.66666666666,118555.70240327259,205350.0,2.0,0,0,0,0,104,136,7.279980780850739,9.706641041134318,0.0,204.0,36.5,74.35628516041629,5528.857142857143,1,2,0,2,6,0,0,0,1.0,41.714285714285715,29.333333333333332,51.0,0,0,0,0,0,0,0,0,0,0,64240,1527,1,32,0,0,0,0,0,0,0,0,NeedManualLabel
+2024-11-03 12:54:20 - Flow: 192.168.34.133-185.199.108.133-39034-443-6,192.168.34.133,39034,185.199.108.133,443,6,03/11/2024 12:54:18 PM,194590,2,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.417030679891052,97295.0,137485.59989322518,194512.0,78.0,194590.0,194590.0,0.0,194590.0,194590.0,0,0,0,0,0,0,0,0,0,60,40,10.278020453260702,5.139010226630351,0.0,0.0,0.0,0.0,0.0,0,2,1,0,1,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,0,0,0,64240,65535,0,20,0,0,0,0,0,0,0,0,NeedManualLabel
