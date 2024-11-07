@@ -9,3 +9,14 @@
 2024-11-07 22:28:18 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: ./
 2024-11-07 22:28:18 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
 2024-11-07 22:28:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on ./m.pcap
+2024-11-07 22:55:06 INFO  cic.cs.unb.ca.ifm.Cmd    You select: ./m.pcap
+2024-11-07 22:55:06 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: ./
+2024-11-07 22:55:06 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-11-07 22:55:06 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on ./m.pcap
+2024-11-07 23:04:09 INFO  cic.cs.unb.ca.ifm.Cmd    You select: ./m.pcap
+2024-11-07 23:04:09 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: .
+2024-11-07 23:04:09 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-11-07 23:05:20 INFO  cic.cs.unb.ca.ifm.Cmd    You select: ./m.pcap
+2024-11-07 23:05:20 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: .
+2024-11-07 23:05:20 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-11-07 23:05:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on ./m.pcap
