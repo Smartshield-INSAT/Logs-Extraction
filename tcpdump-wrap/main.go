@@ -130,7 +130,7 @@ func sendToRabbitMQ(id, rabbitMQQueue, rabbitMQURL, filename string) error {
 			} else {
 				return sendToRabbitMQ(id, rabbitMQQueue, rabbitMQURL, filename)
 			}
-		case <-time.After(5 * time.Second):
+		case <-time.After(10 * time.Second):
 			return fmt.Errorf("timeout waiting for RabbitMQ confirmation")
 	}
 
@@ -215,25 +215,19 @@ func setValue(filename string,key string,value string) error {
 func main() {
 	var lastFilename string
 	var lastCmd *exec.Cmd
+	id,err := getValue("TcpdumpWrap","ID")
+	if err != nil {
+		fmt.Println("ID not found in file")
+	}
 	if (!fileExists("TcpdumpWrap")) {
 		info := getDeviceInfo()
 		fmt.Println("Device Info:", info)
-	}
-	lastFilename,err := getValue("TcpdumpWrap","LASTFILE")
-	if err != nil {
-		log.Println("Failed to get last file:", err)
-	}
-	if (!fileExists(lastFilename)) {
-		log.Println("Last file not found:", lastFilename)
-	}else{
-		log.Println("Last file:", lastFilename)
-		/// send all files in /tmp to RabbitMQ
 	}
 
 	for {
 
 		timestamp := time.Now().Format("20060102-150405")
-		filename := filepath.Join(os.TempDir(), fmt.Sprintf("capture-%s.pcap", timestamp))
+		filename := filepath.Join(os.TempDir(), fmt.Sprintf("capture-%s-%s.pcap", id, timestamp))
 
 		cmd, err := startPacketCapture(filename)
 		if err != nil {
@@ -247,7 +241,7 @@ func main() {
 				time.Sleep(1 * time.Second)
 				previousCmd.Process.Kill()
 				fmt.Println("Sending to RabbitMQ")
-				err := sendToRabbitMQ("123", "testQueue", "amqp://guest:guest@localhost:5672/", previousFilename)
+				err := sendToRabbitMQ(id, "testQueue", "amqp://myuser:mypassword@192.168.100.88:5672/", previousFilename)
 				if err != nil {
 					log.Fatal("Failed to send to RabbitMQ:", err.Error())
 				}

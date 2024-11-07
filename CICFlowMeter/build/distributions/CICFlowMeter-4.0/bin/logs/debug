@@ -1,0 +1,11 @@
+2024-11-07 22:26:29 INFO  cic.cs.unb.ca.ifm.Cmd    The pcap file or folder does not exist! -> wlp49s0
+2024-11-07 22:26:36 INFO  cic.cs.unb.ca.ifm.Cmd    You select: file.pcapng
+2024-11-07 22:26:36 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: ./
+2024-11-07 22:26:36 INFO  cic.cs.unb.ca.ifm.Cmd    Please select pcap file!
+2024-11-07 22:26:54 INFO  cic.cs.unb.ca.ifm.Cmd    You select: ./file.pcapng
+2024-11-07 22:26:54 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: ./
+2024-11-07 22:26:54 INFO  cic.cs.unb.ca.ifm.Cmd    Please select pcap file!
+2024-11-07 22:28:18 INFO  cic.cs.unb.ca.ifm.Cmd    You select: ./m.pcap
+2024-11-07 22:28:18 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: ./
+2024-11-07 22:28:18 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-11-07 22:28:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on ./m.pcap

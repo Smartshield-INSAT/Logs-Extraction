@@ -133,7 +133,7 @@ task exeRealCMD(type: JavaExec){
 
 
 task cmdScript(type: CreateStartScripts) {
-    mainClassName = "cic.cs.unb.ca.ifm.RealCmd"
+    mainClassName = "cic.cs.unb.ca.ifm.Cmd"
     applicationName = "cfm"
     outputDir = new File(project.buildDir, 'scripts')
     classpath = jar.outputs.files + project.configurations.runtime

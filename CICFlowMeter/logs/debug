@@ -1,16 +1,485 @@
-2024-11-03 11:39:53 INFO  cic.cs.unb.ca.ifm.Cmd    Selected interface: wlp49s0
-2024-11-03 11:39:53 INFO  cic.cs.unb.ca.ifm.Cmd    Output folder: /home/enigma/work/tsyp/3asba/CICFlowMeter/out/
-2024-11-03 11:39:53 INFO  cic.cs.unb.ca.jnetpcap.worker.TrafficFlowWorker    open wlp49s0 fail -> wlp49s0: You don't have permission to perform this capture on that device (socket: Operation not permitted)
-2024-11-03 11:39:53 INFO  cic.cs.unb.ca.ifm.Cmd    Network capture on wlp49s0 completed.
-2024-11-03 12:51:47 INFO  cic.cs.unb.ca.ifm.Cmd    Selected interface: wlp49s0
-2024-11-03 12:51:47 INFO  cic.cs.unb.ca.ifm.Cmd    Output folder: /home/enigma/work/tsyp/3asba/CICFlowMeter/out/
-2024-11-03 12:51:47 INFO  cic.cs.unb.ca.jnetpcap.worker.TrafficFlowWorker    open wlp49s0 fail -> wlp49s0: You don't have permission to perform this capture on that device (socket: Operation not permitted)
-2024-11-03 12:51:47 INFO  cic.cs.unb.ca.ifm.Cmd    Network capture on wlp49s0 completed.
-2024-11-03 12:53:15 INFO  cic.cs.unb.ca.ifm.Cmd    Selected interface: wlp49s0
-2024-11-03 12:53:15 INFO  cic.cs.unb.ca.ifm.Cmd    Output folder: /home/enigma/work/tsyp/3asba/CICFlowMeter/out/
-2024-11-03 12:53:15 INFO  cic.cs.unb.ca.jnetpcap.worker.TrafficFlowWorker    Pcap is listening...
-2024-11-03 12:54:16 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
-2024-11-03 12:54:16 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
-2024-11-03 12:54:16 INFO  cic.cs.unb.ca.ifm.Cmd    Flow: 192.168.34.133-95.216.195.133-45598-80-6,192.168.34.133,45598,95.216.195.133,80,6,03/11/2024 12:53:33 PM,412089,3,4,88.0,204.0,88.0,0.0,29.333333333333332,50.80682368868706,204.0,0.0,51.0,102.0,708.5847960028052,16.986621821985057,68681.5,106207.45727254749,206728.0,2.0,207221.0,103610.5,145998.45843193002,206847.0,374.0,205361.0,68453.66666666666,118555.70240327259,205350.0,2.0,0,0,0,0,104,136,7.279980780850739,9.706641041134318,0.0,204.0,36.5,74.35628516041629,5528.857142857143,1,2,0,2,6,0,0,0,1.0,41.714285714285715,29.333333333333332,51.0,0,0,0,0,0,0,0,0,0,0,64240,1527,1,32,0,0,0,0,0,0,0,0,NeedManualLabel
-2024-11-03 12:54:20 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagRST current has 32 flow
-2024-11-03 12:54:20 INFO  cic.cs.unb.ca.ifm.Cmd    Flow: 192.168.34.133-185.199.108.133-39034-443-6,192.168.34.133,39034,185.199.108.133,443,6,03/11/2024 12:54:18 PM,194590,2,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.417030679891052,97295.0,137485.59989322518,194512.0,78.0,194590.0,194590.0,0.0,194590.0,194590.0,0,0,0,0,0,0,0,0,0,60,40,10.278020453260702,5.139010226630351,0.0,0.0,0.0,0.0,0.0,0,2,1,0,1,0,0,0,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,0,0,0,64240,65535,0,20,0,0,0,0,0,0,0,0,NeedManualLabel
+2024-11-07 01:17:31 DEBUG cic.cs.unb.ca.flow.ui.FlowOfflinePane    offline select input /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:17:35 DEBUG cic.cs.unb.ca.flow.ui.FlowOfflinePane    offline select output /home/enigma/work/tsyp/3asba/CICFlowMeter/cap
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.ReadPcapFileWorker    Working on... /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2024-11-07 01:17:36 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.Utils    /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap_Flow.csv (No such file or directory)
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:17:36 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:09 DEBUG cic.cs.unb.ca.flow.ui.FlowOfflinePane    offline select output /home/enigma/work/tsyp/3asba/CICFlowMeter/cap
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.ReadPcapFileWorker    Working on... /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2024-11-07 01:18:12 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.Utils    /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap_Flow.csv (No such file or directory)
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:12 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.ReadPcapFileWorker    Working on... /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2024-11-07 01:18:25 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.Utils    /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap_Flow.csv (No such file or directory)
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:25 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.ReadPcapFileWorker    Working on... /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 2 flow
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2024-11-07 01:18:26 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.Utils    /home/enigma/work/tsyp/3asba/CICFlowMeter/cap/c116-WebStrike.pcap_Flow.csv (No such file or directory)
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:18:26 DEBUG cic.cs.unb.ca.jnetpcap.worker.InsertCsvRow    Permission denied
+2024-11-07 01:20:03 DEBUG swing.common.SwingUtils    /tmp/sddm-auth-f9870da8-d5dd-4f9c-8b90-c7564533a444 (No such device or address)
+2024-11-07 01:20:03 DEBUG swing.common.SwingUtils    /tmp/sddm-:0-WVYaFx (Permission denied)
+2024-11-07 01:20:07 DEBUG cic.cs.unb.ca.flow.ui.FlowOfflinePane    offline select input /tmp/capture-20241107-011151.pcap
+2024-11-07 01:20:13 DEBUG cic.cs.unb.ca.flow.ui.FlowOfflinePane    offline select output /tmp
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.worker.ReadPcapFileWorker    Working on... /tmp/capture-20241107-011151.pcap
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 4c  00 01 fe 80  00 00 00 00  00 00 47 22    ...L..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: a0 7d 00 00  00 03 04 00  00 00 ff 02  00 00 00 00    .}..............
+0050: 00 00 00 00  00 01 ff ec  61 f9 04 00  00 00 ff 02    ........a.......
+0060: 00 00 00 00  00 00 00 00  00 00 00 00  00 0c 04 00    ................
+0070: 00 00 ff 02  00 00 00 00  00 00 00 00  00 00 00 00    ................
+0080: 00 fb*                                                ..              
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@75a1c40e73b8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1896)
+********************************************************************************
+0000:*ff ff ff ff  ff ff f8 b5  4d 41 fc 44  08 06 00 01    ........MA.D....
+0010: 08 00 06 04  00 01 f8 b5  4d 41 fc 44  c0 a8 64 08    ........MA.D..d.
+0020: 00 00 00 00  00 00 c0 a8  64 01                       ........d.      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b 10 8f  fe dd f4 e1  86 dd 60 0c*   .j............`.
+0010: a9 f3 00 20  3a ff fe 80  00 00 00 00  00 00 00 00    ... :...........
+0020: 00 00 00 00  00 01 ff 02  00 00 00 00  00 00 00 00    ................
+0030: 00 00 00 00  00 01 86 00  2b b2 40 40  00 00 00 00    ........+.@@....
+0040: 00 00 00 00  00 00 05 01  00 00 00 00  05 dc 01 01    ................
+0050: 10 8f fe dd  f4 e1*                                   ......          
+
+
+2024-11-07 01:20:15 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 20  3a ff fe 80  00 00 00 00  00 00 47 22    ... :.........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 01 88 00  4a 83 20 00  00 00 fe 80    ........J. .....
+0040: 00 00 00 00  00 00 47 22  82 67 3a ec  61 f9 02 01    ......G".g:.a...
+0050: f8 b5 4d 41  fc 44*                                   ..MA.D          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@75a1c40ea116class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=13510)
+********************************************************************************
+0000:*ff ff ff ff  ff ff f8 b5  4d 41 fc 44  08 06 00 01    ........MA.D....
+0010: 08 00 06 04  00 01 f8 b5  4d 41 fc 44  00 00 00 00    ........MA.D....
+0020: 00 00 00 00  00 00 c0 a8  64 08                       ........d.      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2024-11-07 01:20:15 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 0d*   .j......MA.D..`.
+0010: dd 31 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    .1.0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 0d*   .j......MA.D..`.
+0010: dd 31 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    .1.0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@75a1c41bd174class org.jnetpcap.protocol.network.Ip4: size=16 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=26132)
+********************************************************************************
+0000:*ff ff ff ff  ff ff f8 b5  4d 41 fc 44  08 06 00 01    ........MA.D....
+0010: 08 00 06 04  00 01 f8 b5  4d 41 fc 44  00 00 00 00    ........MA.D....
+0020: 00 00 00 00  00 00 c0 a8  64 08                       ........d.      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 09*   .j......MA.D..`.
+0010: e1 91 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    ...0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 09*   .j......MA.D..`.
+0010: e1 91 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    ...0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagRST current has 10 flow
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 24  00 01 fe 80  00 00 00 00  00 00 47 22    ...$..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: 0a 98 00 00  00 01 03 00  00 00 ff 02  00 00 00 00    ................
+0050: 00 00 00 00  00 00 00 01  00 03*                      ..........      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 24  00 01 fe 80  00 00 00 00  00 00 47 22    ...$..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: 09 98 00 00  00 01 04 00  00 00 ff 02  00 00 00 00    ................
+0050: 00 00 00 00  00 00 00 01  00 03*                      ..........      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 24  00 01 fe 80  00 00 00 00  00 00 47 22    ...$..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: 0a 98 00 00  00 01 03 00  00 00 ff 02  00 00 00 00    ................
+0050: 00 00 00 00  00 00 00 01  00 03*                      ..........      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 24  00 01 fe 80  00 00 00 00  00 00 47 22    ...$..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: 09 98 00 00  00 01 04 00  00 00 ff 02  00 00 00 00    ................
+0050: 00 00 00 00  00 00 00 01  00 03*                      ..........      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 08*   .j......MA.D..`.
+0010: 3b 9e 00 2f  11 01 fe 80  00 00 00 00  00 00 47 22    ;../..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 2f  af 38 00 00    .........../.8..
+0040: 00 00 00 01  00 00 00 00  00 00 0f 44  45 53 4b 54    ...........DESKT
+0050: 4f 50 2d 53  4f 35 30 43  4f 52 05 6c  6f 63 61 6c    OP-SO50COR.local
+0060: 00 00 ff 00  01*                                      .....           
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 08*   .j......MA.D..`.
+0010: 3b 9e 00 55  11 01 fe 80  00 00 00 00  00 00 47 22    ;..U..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 55  d1 a1 00 00    ...........U....
+0040: 84 00 00 00  00 02 00 00  00 00 0f 44  45 53 4b 54    ...........DESKT
+0050: 4f 50 2d 53  4f 35 30 43  4f 52 05 6c  6f 63 61 6c    OP-SO50COR.local
+0060: 00 00 1c 00  01 00 00 00  3c 00 10 fe  80 00 00 00    ........<.......
+0070: 00 00 00 47  22 82 67 3a  ec 61 f9 c0  0c 00 01 00    ...G".g:.a......
+0080: 01 00 00 00  3c 00 04 c0  a8 64 08*                   ....<....d.     
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 24  00 01 fe 80  00 00 00 00  00 00 47 22    ...$..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 16 3a 00  05 02 00 00  01 00 8f 00    ......:.........
+0040: 09 98 00 00  00 01 04 00  00 00 ff 02  00 00 00 00    ................
+0050: 00 00 00 00  00 00 00 01  00 03*                      ..........      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@75a1c41be45cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30972)
+********************************************************************************
+0000:*ff ff ff ff  ff ff f8 b5  4d 41 fc 44  08 06 00 01    ........MA.D....
+0010: 08 00 06 04  00 01 f8 b5  4d 41 fc 44  c0 a8 64 08    ........MA.D..d.
+0020: 00 00 00 00  00 00 c0 a8  64 08                       ........d.      
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 0d*   .j......MA.D..`.
+0010: dd 31 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    .1.0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 0d*   .j......MA.D..`.
+0010: dd 31 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    .1.0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 09*   .j......MA.D..`.
+0010: e1 91 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    ...0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 09*   .j......MA.D..`.
+0010: e1 91 00 30  11 01 fe 80  00 00 00 00  00 00 47 22    ...0..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  26 b6 00 00    ...........0&...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b 10 8f  fe dd f4 e1  86 dd 60 00*   .j............`.
+0010: 00 00 00 20  3a ff fe 80  00 00 00 00  00 00 00 00    ... :...........
+0020: 00 00 00 00  00 01 fe 80  00 00 00 00  00 00 c3 4e    ...............N
+0030: a4 da 67 64  be 77 87 00  5b c6 00 00  00 00 fe 80    ..gd.w..[.......
+0040: 00 00 00 00  00 00 c3 4e  a4 da 67 64  be 77 01 01    .......N..gd.w..
+0050: 10 8f fe dd  f4 e1*                                   ......          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b 10 8f  fe dd f4 e1  86 dd 60 00*   .j............`.
+0010: 00 00 00 20  3a ff fe 80  00 00 00 00  00 00 00 00    ... :...........
+0020: 00 00 00 00  00 01 fe 80  00 00 00 00  00 00 c3 4e    ...............N
+0030: a4 da 67 64  be 77 87 00  5b c6 00 00  00 00 fe 80    ..gd.w..[.......
+0040: 00 00 00 00  00 00 c3 4e  a4 da 67 64  be 77 01 01    .......N..gd.w..
+0050: 10 8f fe dd  f4 e1*                                   ......          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: 00 00 00 10  3a ff fe 80  00 00 00 00  00 00 47 22    ....:.........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 02 85 00  d3 82 00 00  00 00 01 01    ................
+0040: f8 b5 4d 41  fc 44*                                   ..MA.D          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b 10 8f  fe dd f4 e1  86 dd 60 0c*   .j............`.
+0010: a9 f3 00 20  3a ff fe 80  00 00 00 00  00 00 00 00    ... :...........
+0020: 00 00 00 00  00 01 ff 02  00 00 00 00  00 00 00 00    ................
+0030: 00 00 00 00  00 01 86 00  2b b2 40 40  00 00 00 00    ........+.@@....
+0040: 00 00 00 00  00 00 05 01  00 00 00 00  05 dc 01 01    ................
+0050: 10 8f fe dd  f4 e1*                                   ......          
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*f4 6a dd 80  af 0b f8 b5  4d 41 fc 44  86 dd 60 00*   .j......MA.D..`.
+0010: fd cc 00 35  11 ff fe 80  00 00 00 00  00 00 47 22    ...5..........G"
+0020: 82 67 3a ec  61 f9 ff 02  00 00 00 00  00 00 00 00    .g:.a...........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 35  49 85 00 00    ...........5I...
+0040: 00 00 00 01  00 00 00 00  00 00 10 5f  73 70 6f 74    ..........._spot
+0050: 69 66 79 2d  63 6f 6e 6e  65 63 74 04  5f 74 63 70    ify-connect._tcp
+0060: 05 6c 6f 63  61 6c 00 00  0c 00 01*                   .local.....     
+
+
+2024-11-07 01:20:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /tmp/capture-20241107-011151.pcap

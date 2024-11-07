@@ -1,0 +1,10 @@
+2024-11-07 22:26:29 - The pcap file or folder does not exist! -> wlp49s0
+2024-11-07 22:26:36 - You select: file.pcapng
+2024-11-07 22:26:36 - Out folder: ./
+2024-11-07 22:26:36 - Please select pcap file!
+2024-11-07 22:26:54 - You select: ./file.pcapng
+2024-11-07 22:26:54 - Out folder: ./
+2024-11-07 22:26:54 - Please select pcap file!
+2024-11-07 22:28:18 - You select: ./m.pcap
+2024-11-07 22:28:18 - Out folder: ./
+2024-11-07 22:28:18 - CICFlowMeter received 1 pcap file
